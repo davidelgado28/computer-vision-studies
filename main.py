@@ -14,7 +14,7 @@ class SelfContainedObjectDetector:
     CLASSES = [
         "background", "aeroplane", "bicycle", "bird", "boat",
         "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
-        "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
+        "dog", "horse", "motorbike", "person", "pottedplant", "sheep", 
         "sofa", "train", "tvmonitor"
     ]
     def __init__(self, conf_threshold: float = 0.5):
